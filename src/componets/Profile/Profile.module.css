@@ -1,53 +1,55 @@
-.profile-card {
-  max-width: 300px;
-  margin: 20px auto;
-  border: 1px solid #ddd;
+
+
+
+
+.card {
+  background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 15px rgba(0, 0, 10);
   overflow: hidden;
+  width: 300px;
+  margin: 20px auto;
   font-family: Arial, sans-serif;
 }
 
-.profile-header {
+.profileHeader {
   text-align: center;
   padding: 20px;
-  background-color: #f4f4f4;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.profile-header img {
+.profileImage {
+  border-radius: 50%;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  margin-bottom: 10px;
 }
 
-.profile-header p {
-  margin: 5px 0;
+.profileDetails {
+  margin: 10px 0;
   color: #333;
 }
 
-.profile-stats {
-  list-style: none;
+.profileStats {
+  list-style-type: none;
   padding: 0;
-  margin: 0;
   display: flex;
   justify-content: space-around;
-  background-color: #fff;
+  background-color: #f0f0f0;
+  margin: 0;
+  border-top: 1px solid #e0e0e0;
 }
 
-.profile-stats li {
-  padding: 10px 0;
-  width: 33.33%;
+.profileStats li {
   text-align: center;
+  padding: 10px 0;
 }
 
-.profile-stats span {
+.profileStats span {
   display: block;
   color: #777;
 }
 
-.profile-stats span:last-child {
-  font-size: 18px;
-  font-weight: bold;
+.profileStats span:last-child {
   color: #333;
+  font-weight: bold;
 }
