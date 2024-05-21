@@ -1,3 +1,4 @@
+
 .transactionHistory {
   width: 100%;
   border-collapse: collapse;
@@ -6,18 +7,15 @@
 
 .transactionHistory th, .transactionHistory td {
   padding: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #ababab;
   text-align: left;
 }
 
 .transactionHistory th {
-  background-color: #f2f2f2;
+  background-color: #888787;
 }
 
-.trans-container{
-
-display: flex;
-align-items: center;
 
 
-}
+.transactionHistory tbody tr:nth-child(even) {
+  background-color: #d3d2d2;}

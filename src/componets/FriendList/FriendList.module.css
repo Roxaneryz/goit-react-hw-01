@@ -1,16 +1,30 @@
 .friendItem {
-  display: flex;
   justify-content: space-between;
   gap: 10px;
   border: 1px solid black;
   border-radius: 20px;
+   border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 10);
   padding: 25px;
 }
-.friend-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+.friendList{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ 
 }
+/* .friendContainer {
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+  
+} */
 .friendItem img {
   margin-right: 10px;
 }
@@ -22,7 +36,7 @@ ul {
 }
 
 .online {
-  color: green;
+  color: rgb(0, 168, 0);
 }
 
 .offline {
