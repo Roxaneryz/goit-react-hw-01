@@ -8,6 +8,9 @@ const Profile = ({
   stats: { followers, views, likes },
 }) => {
   return (
+
+
+    
     <div className={styles.card}>
       <div className={styles.profileHeader}>
         <img
