@@ -1,0 +1,55 @@
+.friendItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 25px;
+}
+.friend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friendItem img {
+  margin-right: 10px;
+}
+ul {
+  list-style: none;
+}
+.status {
+  margin-left: auto;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.friendCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.friendCard p {
+  margin: 0;
+}
+
+.friendCard .status {
+  margin-top: 5px;
+}

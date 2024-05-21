@@ -1,6 +1,3 @@
-
-
-
 import styles from "./Profile.module.css";
 
 const Profile = ({
@@ -42,6 +39,4 @@ const Profile = ({
   );
 };
 
-
 export default Profile;
-
